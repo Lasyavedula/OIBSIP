@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    align-items: center;
+  }
+  
+  .converter {
+    margin: 20px;
+    padding-left:350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    place-items:center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom:10px;
+    align-items:center;
+    width:100px;
+    }
+  
+  input[type="number"] {
+    padding: 5px;
+    width: 500px;
+    align-items: center;
+  }
+ 
+  button {
+    padding: 10px;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
