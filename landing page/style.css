@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(230, 186, 243);
+
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #243879;
+    color: #146fc4;
+    padding: 10px;
+  }
+  .img{
+    display:flex;
+    justify-content: left;
+    align-items:center;
+    height:1000px;
+    width:1000px;
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #060606;
+    color: #f9fbfa;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Sections Styles */
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Form Styles */
+  form input,
+  form textarea,
+  form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #0a0a0a00;
+  }
+  
+  
